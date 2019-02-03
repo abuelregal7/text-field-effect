@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9DE955A9860D0B6034849E /* Pods_text_field_effectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCA35B46C470B7A564F67C2 /* Pods_text_field_effectTests.framework */; };
+		3BD98A18B93133EF386D646C /* Pods_text_field_effect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9583622A4B4CF983F9AEE4E /* Pods_text_field_effect.framework */; };
+		4A9787568EC2C19FAD12E42D /* Pods_text_field_effectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D518986A168F5181A08D7C1 /* Pods_text_field_effectUITests.framework */; };
 		83D6B5C821A1CA8F00F13C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B5C721A1CA8F00F13C25 /* AppDelegate.swift */; };
 		83D6B5CA21A1CA8F00F13C25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B5C921A1CA8F00F13C25 /* ViewController.swift */; };
 		83D6B5CD21A1CA8F00F13C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6B5CB21A1CA8F00F13C25 /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E7EA1A7FAC9137918B8AF7 /* Pods-text field effect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effect.release.xcconfig"; path = "Pods/Target Support Files/Pods-text field effect/Pods-text field effect.release.xcconfig"; sourceTree = "<group>"; };
+		0B9D7F22B0AD92B821190022 /* Pods-text field effectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-text field effectTests/Pods-text field effectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12A40C3209DC4CB070529915 /* Pods-text field effectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-text field effectUITests/Pods-text field effectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		433DB73B62CA778A512C1B47 /* Pods-text field effect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-text field effect/Pods-text field effect.debug.xcconfig"; sourceTree = "<group>"; };
+		6D518986A168F5181A08D7C1 /* Pods_text_field_effectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_field_effectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6B5C421A1CA8F00F13C25 /* text field effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "text field effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6B5C721A1CA8F00F13C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D6B5C921A1CA8F00F13C25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		83D6B5E321A1CA8F00F13C25 /* text field effectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "text field effectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6B5E721A1CA8F00F13C25 /* text_field_effectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_field_effectUITests.swift; sourceTree = "<group>"; };
 		83D6B5E921A1CA8F00F13C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCA35B46C470B7A564F67C2 /* Pods_text_field_effectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_field_effectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9583622A4B4CF983F9AEE4E /* Pods_text_field_effect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_field_effect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC03E6BE6C59CF521D3B806 /* Pods-text field effectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-text field effectUITests/Pods-text field effectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7B70CEE378B2AE84F3C241 /* Pods-text field effectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text field effectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-text field effectTests/Pods-text field effectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD98A18B93133EF386D646C /* Pods_text_field_effect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9DE955A9860D0B6034849E /* Pods_text_field_effectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9787568EC2C19FAD12E42D /* Pods_text_field_effectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B92388F069676AB6BC85E7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433DB73B62CA778A512C1B47 /* Pods-text field effect.debug.xcconfig */,
+				08E7EA1A7FAC9137918B8AF7 /* Pods-text field effect.release.xcconfig */,
+				0B9D7F22B0AD92B821190022 /* Pods-text field effectTests.debug.xcconfig */,
+				FF7B70CEE378B2AE84F3C241 /* Pods-text field effectTests.release.xcconfig */,
+				ABC03E6BE6C59CF521D3B806 /* Pods-text field effectUITests.debug.xcconfig */,
+				12A40C3209DC4CB070529915 /* Pods-text field effectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35D432F459E210B552C4A64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9583622A4B4CF983F9AEE4E /* Pods_text_field_effect.framework */,
+				8BCA35B46C470B7A564F67C2 /* Pods_text_field_effectTests.framework */,
+				6D518986A168F5181A08D7C1 /* Pods_text_field_effectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83D6B5BB21A1CA8F00F13C25 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				83D6B5DB21A1CA8F00F13C25 /* text field effectTests */,
 				83D6B5E621A1CA8F00F13C25 /* text field effectUITests */,
 				83D6B5C521A1CA8F00F13C25 /* Products */,
+				1B92388F069676AB6BC85E7F /* Pods */,
+				35D432F459E210B552C4A64D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D6B5EC21A1CA8F00F13C25 /* Build configuration list for PBXNativeTarget "text field effect" */;
 			buildPhases = (
+				3C38DCF1B24A9ECDB167BB91 /* [CP] Check Pods Manifest.lock */,
 				83D6B5C021A1CA8F00F13C25 /* Sources */,
 				83D6B5C121A1CA8F00F13C25 /* Frameworks */,
 				83D6B5C221A1CA8F00F13C25 /* Resources */,
+				1EEF151950BAB1484F1D5C91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D6B5EF21A1CA8F00F13C25 /* Build configuration list for PBXNativeTarget "text field effectTests" */;
 			buildPhases = (
+				8FB84A83A5B1332D58D35FD3 /* [CP] Check Pods Manifest.lock */,
 				83D6B5D421A1CA8F00F13C25 /* Sources */,
 				83D6B5D521A1CA8F00F13C25 /* Frameworks */,
 				83D6B5D621A1CA8F00F13C25 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D6B5F221A1CA8F00F13C25 /* Build configuration list for PBXNativeTarget "text field effectUITests" */;
 			buildPhases = (
+				C6BA47D0FFC6E2E253A06E38 /* [CP] Check Pods Manifest.lock */,
 				83D6B5DF21A1CA8F00F13C25 /* Sources */,
 				83D6B5E021A1CA8F00F13C25 /* Frameworks */,
 				83D6B5E121A1CA8F00F13C25 /* Resources */,
@@ -253,6 +297,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EEF151950BAB1484F1D5C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-text field effect/Pods-text field effect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-text field effect/Pods-text field effect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C38DCF1B24A9ECDB167BB91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text field effect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB84A83A5B1332D58D35FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text field effectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BA47D0FFC6E2E253A06E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text field effectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83D6B5C021A1CA8F00F13C25 /* Sources */ = {
@@ -424,6 +543,7 @@
 		};
 		83D6B5ED21A1CA8F00F13C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433DB73B62CA778A512C1B47 /* Pods-text field effect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +558,7 @@
 		};
 		83D6B5EE21A1CA8F00F13C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E7EA1A7FAC9137918B8AF7 /* Pods-text field effect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +573,7 @@
 		};
 		83D6B5F021A1CA8F00F13C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9D7F22B0AD92B821190022 /* Pods-text field effectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +590,7 @@
 		};
 		83D6B5F121A1CA8F00F13C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7B70CEE378B2AE84F3C241 /* Pods-text field effectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +607,7 @@
 		};
 		83D6B5F321A1CA8F00F13C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC03E6BE6C59CF521D3B806 /* Pods-text field effectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +623,7 @@
 		};
 		83D6B5F421A1CA8F00F13C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A40C3209DC4CB070529915 /* Pods-text field effectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

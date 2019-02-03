@@ -1,0 +1,6 @@
+framework module Pods_text_field_effectUITests {
+  umbrella header "Pods-text field effectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
